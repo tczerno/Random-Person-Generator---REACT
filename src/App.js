@@ -46,16 +46,16 @@ function App() {
           <p className="user-value">{infoValue}</p>
           <div className="values-list">
             <h2>
-              <strong>Age:</strong> {person.age}
+              <b>Age:</b> {person.age}
             </h2>
             <h2>
-              <strong>Street Address:</strong> {person.street}
+              <b>Street Address:</b> {person.street}
             </h2>
             <h2>
-              <strong>Email:</strong> {person.email}
+              <b>Email:</b> {person.email}
             </h2>
             <h2>
-              <strong>Phone:</strong> {person.phone}
+              <b>Phone:</b> {person.phone}
             </h2>
           </div>
           <button type="button" className="btn" onClick={getPerson}>
