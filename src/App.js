@@ -28,7 +28,6 @@ function App() {
     setPerson(personInfo);
     setInfoValue(personInfo.name);
   }
-
   React.useEffect(() => {
     getPerson();
   }, []);
